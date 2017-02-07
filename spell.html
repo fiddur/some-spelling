@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/spell.css" />
+  </head>
+  <body>
+    <div id="speak">
+      <h3>Ord <span id="wordnr">0</span> av <span id="wordcount"></span></h3>
+
+      <p>
+        🔊 Klicka på högtalaren för att höra ordet igen.
+      </p>
+    </div>
+
+    <form id="form">
+      <label>
+        Stava: <input id="input" autocomplete="off" />
+      </label>
+      <input type="submit" value="Kontrollera" />
+      <div id="feedback"></div>
+    </form>
+
+    <table id="result">
+      <tr>
+        <th>Ord</th>
+        <th>Resultat</th>
+      </tr>
+    </table>
+
+    <script src="./node_modules/immutable/dist/immutable.min.js"></script>
+    <script src="./spell.js"></script>
+  </body>
+</html>

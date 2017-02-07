@@ -1,0 +1,14 @@
+{
+  "name": "spell",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fredrik Liljegren <fredrik@liljegren.org>",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "immutable": "^3.8.1"
+  }
+}
